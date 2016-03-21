@@ -30,7 +30,7 @@ thats all you have to do for now
 <p>#addnode=1.2.3.4</p> 
 
 6. Now control-x and press y then enter to save the code now cd .. and you will be in /home/pi now type cd /usr/local/bin and press enter now enter ls and you will see blackcoin now run ./blackcoind and it will say blackcoin server has started if you want to see how to get the blackcoin gui then carry on reading 
-7. Now go make to blackcoin so close the terminal and open up a new one and cd jumbucks now your gonna have to install some dependencies so run the following commands
+7. So close the terminal and open up a new one and cd blackcoin now your gonna have to install some dependencies so run the following commands
 <p>sudo apt-get install libqt4-dev qt4-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev -y</p>
 8. So now you can make the gui so now your in blackcoin run this command qmake this could take up to about 2 mins after that has finished run make this could up to about an hour and a half
 9. Now after make has finished run 
